@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KML file with polygon for bird species range</name>
+	<open>1</open>
+	<description>Source various books and websites</description>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ccff0000</color>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ccff0000</color>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<color>ff0055ff</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff00aa</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<color>ff0055ff</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff00aa</color>
+		</LabelStyle>
+	</Style>
+	<Placemark>
+		<name>Qb to school</name>
+		<styleUrl>#m_ylw-pushpin0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				76.35292452107743,10.26797882846038,0 76.35263939716049,10.26841089207842,0 76.35257771084014,10.26859387139766,0 76.35251996589433,10.26877217360062,0 76.35261037203263,10.26879418487756,0 76.35263010783711,10.26879350747131,0 76.35266310807607,10.26880503723689,0 76.35268061584627,10.26882349908446,0 76.35270315753624,10.26884186944329,0 76.35272083003055,10.26886049305406,0 76.35273858070414,10.26887919913556,0 76.35275779307652,10.26888498372742,0 76.35277635256108,10.26889728061458,0 76.35278066400521,10.26890361941789,0 76.35281362844327,10.26892197853837,0 76.35283234538365,10.2689343797304,0 76.35286113161038,10.26894645459615,0 76.35288940437637,10.26896517262317,0 76.35290329662045,10.26897787815718,0 76.35319718110102,10.26919436575392,0 76.35325768563843,10.26909639865687,0 76.35331394240849,10.2689414094621,0 76.35336382159446,10.26877340098024,0 76.3534220662365,10.26857580581202,0 76.35348075279792,10.26846680296381,0 76.35352816112592,10.26839561798265,0 76.35358799711344,10.26844007607337,0 76.3536065446235,10.26845115945357,0 76.35362512275462,10.2684509531526,0 76.35364364760372,10.26843910140744,0 76.35365748367784,10.26842733604091,0 76.3536805169346,10.26841551327946,0 76.35369886198724,10.26840377663681,0 76.35371731213509,10.26840358763184,0 76.35371747716046,10.26841513319821,0 76.3537131749293,10.26843838063379,0 76.35371349404608,10.26846172568773,0 76.35371389587235,10.26849111350812,0 76.35371881615868,10.26850880756676,0 76.3537189859583,10.26852068315814,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>MAMHS schools</name>
+		<description>Koratty school</description>
+		<LookAt>
+			<longitude>76.35292271063339</longitude>
+			<latitude>10.26794083595374</latitude>
+			<altitude>0</altitude>
+			<heading>-2.025789825471978e-05</heading>
+			<tilt>41.41872933929184</tilt>
+			<range>1257.620591348602</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>76.35292271063339,10.26794083595375,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Qburst tech</name>
+		<LookAt>
+			<longitude>76.35342784184343</longitude>
+			<latitude>10.26884186025971</latitude>
+			<altitude>0</altitude>
+			<heading>-0.0001376384618143083</heading>
+			<tilt>35.86107721456837</tilt>
+			<range>361.6851188417613</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>76.35373237628184,10.26855211766096,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
